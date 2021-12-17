@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>List</title>
+    <link rel="stylesheet" href="styles/list.css" type="text/css" />
   </head>
   <body>
     <div>
-      <div>
+      <header>
         <a href="index.html">
           <img
+            id="logo"
             src="assests/images/logo.png"
             alt="logo"
             height="150px"
@@ -20,15 +22,17 @@
         <a href="login.html">Login</a>
         <!-- <br /> -->
         <!-- <label>Header div</label> -->
-      </div>
+      </header>
       <div id="content">
         <ul>
-          <li><a href="list.html">list View</a></li>
-          <li><a href="list.html">Map View</a></li>
+          <li><a href="#takeToInfo">list View</a></li>
+          <li><a href="#takeToMap">Map View</a></li>
         </ul>
 
         <a href="detail.html">
           <img
+            id="takeToInfo"
+            class="hotelList"
             src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
             alt="Radisson Blu"
           />
@@ -37,6 +41,7 @@
           <h4>New Delhi</h4>
         </a>
         <img
+          class="hotelList"
           src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg"
           alt="Lalit Hotel"
         />
@@ -44,6 +49,7 @@
         <h4>4.5 star</h4>
         <h4>New Delhi</h4>
         <img
+          class="hotelList"
           src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg"
           alt="Taj Palace"
         />
@@ -51,12 +57,13 @@
         <h4>4.0 star</h4>
         <h4>New Delhi</h4>
         <img
+          id="takeToMap"
           src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png"
           alt="Map Image"
         />
         <p>Map View</p>
       </div>
-      <div>
+      <footer>
         <a href="contact.html" target="_blank">Contact Us</a>
         <a href="https://www.facebook.com/" target="_blank">
           <br />
@@ -85,7 +92,7 @@
         </a>
         <br />
         <label>&copy; 2020 ROOM SEARCH PVT. LTD.</label>
-      </div>
+      </footer>
     </div>
   </body>
 </html>

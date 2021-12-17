@@ -1,0 +1,16 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  border: 1px solid white;
+}
+#logo {
+  height: 60px;
+  width: 60px;
+}
+#imageHotel1 {
+  height: 500px;
+  width: 500px;
+}
