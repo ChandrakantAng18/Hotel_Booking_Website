@@ -14,3 +14,22 @@ body {
   height: 200px;
   width: 250px;
 }
+header,
+footer {
+  background-color: rosybrown;
+}
+body {
+  background-color: #e0e0e0;
+  margin: 0;
+}
+#content {
+  margin: 2%;
+}
+.detailist {
+  background-color: rgb(132, 136, 139);
+  width: 40%;
+}
+.detail_list {
+  background-color: rgb(132, 136, 139);
+  width: 40%;
+}

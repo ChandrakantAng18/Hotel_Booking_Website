@@ -14,3 +14,26 @@ body {
   height: 500px;
   width: 500px;
 }
+header {
+  background-color: rosybrown;
+}
+footer {
+  background-color: rosybrown;
+}
+
+.hotelDetail {
+  background-color: rgb(132, 136, 139);
+  height: 20%;
+  width: 50%;
+  margin: auto;
+  margin-top: 2%;
+}
+.detailOfCustomer {
+  margin-left: 2%;
+}
+.tariffDetail {
+  margin: 2%;
+  border: 1px solid;
+  padding: 4px;
+  border-radius: 1px;
+}
