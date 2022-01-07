@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Detail</title>
     <link rel="stylesheet" href="styles/detail.css" />
+    <link rel="stylesheet" href="styles/common.css" />
   </head>
   <body>
-    <div>
-      <header>
-        <a href="index.html">
+    <div id="mainContainerDetail">
+      <!-- this is my header -->
+      <header id="headerTag">
+         <a href="index.html">
           <img
             id="logo"
             src="assests/images/logo.png"
@@ -18,11 +20,9 @@
             height="150px"
             width="200px"
           />
-        </a>
-        <a href="login.html">Login</a>
-        <!-- <br /> -->
-        <!-- <label>Header div</label> -->
+        <a id="login" href="login.html">Login</a>
       </header>
+
       <div class="detail">
         <img
           id="imageRadisson"
@@ -63,36 +63,35 @@
           deserunt dolores nostrum esse corporis.
         </p>
       </div>
-      <footer>
-        <a href="contact.html" target="_blank">Contact Us</a>
+    </div>
+
+    <!-- this is my footer -->
+    <footer id="mainFooter">
+      <a href="contact.html" target="_blank">Contact Us</a>
+      <p id="copyRight">&copy; 2020 ROOM SEARCH PVT. LTD.</p>
+      <div class="socialMediaImagesContainer">
         <a href="https://www.facebook.com/" target="_blank">
-          <br />
           <img
+            class="SocialMediaImages"
             src="assests/images/facebook.png"
             alt="facebook"
-            height="20px"
-            width="22px"
           />
         </a>
         <a href="https://www.instagram.com/" target="_blank">
           <img
+            class="SocialMediaImages"
             src="assests/images/instagram.png"
             alt="instagram"
-            height="20px"
-            width="22px"
           />
         </a>
         <a href="https://twitter.com/" target="_blank">
           <img
+            class="SocialMediaImages"
             src="assests/images/twitter.png"
             alt="twitter"
-            height="20px"
-            width="22px"
           />
         </a>
-        <br />
-        <label>&copy; 2020 ROOM SEARCH PVT. LTD.</label>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>

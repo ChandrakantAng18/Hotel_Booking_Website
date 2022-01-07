@@ -4,22 +4,22 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
-#logo {
+/* #logo {
   height: 60px;
   width: 60px;
-}
+} */
 #imageHotel1 {
   height: 500px;
   width: 500px;
 }
-header {
+/* header {
   background-color: rosybrown;
 }
 footer {
   background-color: rosybrown;
-}
+} */
 
 .hotelDetail {
   background-color: rgb(132, 136, 139);
@@ -36,4 +36,16 @@ footer {
   border: 1px solid;
   padding: 4px;
   border-radius: 1px;
+}
+
+#contain {
+  margin-top: 65px;
+  display: relative;
+}
+header {
+  display: absolute;
+}
+.main_container {
+  margin-top: 90px;
+  padding-bottom: 100px;
 }

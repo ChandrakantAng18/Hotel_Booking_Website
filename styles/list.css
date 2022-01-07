@@ -1,11 +1,10 @@
-html,
+/* html,
 body {
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
-  border: 1px solid white;
-}
+} */
 #logo {
   height: 60px;
   width: 60px;
@@ -14,22 +13,81 @@ body {
   height: 200px;
   width: 250px;
 }
-header,
-footer {
-  background-color: rosybrown;
-}
+
 body {
   background-color: #e0e0e0;
   margin: 0;
 }
 #content {
   margin: 2%;
+  justify-content: space-between;
 }
-.detailist {
+.detailList {
   background-color: rgb(132, 136, 139);
   width: 40%;
 }
 .detail_list {
   background-color: rgb(132, 136, 139);
+  width: 530px;
+  /* display: flex; */
+  /* margin-right: 150px; */
+  /* padding: 40px; */
+  /* justify-content: space-between; */
+}
+.detail_list_test {
+  background-color: rgb(132, 136, 139);
   width: 40%;
+}
+/* #content {
+  margin-top: 100px;
+} */
+#content {
+  /* display: flex; */
+  /* margin: 2%; */
+  /* width: 100%; */
+  /* margin-top: 70px; */
+  /* width: 40%; */
+  /* display: grid;
+  row-gap: 30px;
+  grid-column: 2; */
+}
+/* #viewButton { */
+/* margin-top: 50%; */
+/* width: 100%;
+  display: flex;
+  justify-content: center;
+} */
+.listContainer {
+  padding-bottom: 100px;
+  margin-left: 50px;
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-row-gap: 40px;
+  grid-column-gap: 190px;
+}
+#listMapView {
+  display: flex;
+  justify-content: center;
+}
+#listMapView > a {
+  padding: 30px;
+}
+#mainContainer {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+.listMapViewInnerDiv {
+  margin-top: 40px;
+}
+
+ul.no-bullet {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+li {
+  padding: 20px;
 }

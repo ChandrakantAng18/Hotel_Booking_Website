@@ -7,65 +7,89 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>index</title>
   <link rel="stylesheet" href="styles/index.css" type="text/css" />
+  <link rel="stylesheet" href="styles/common.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet" />
 </head>
 
 <body>
-  <div >
-    <header>
+    
+
+  <div id="main-container">
+   
+     <!-- this is my header -->
+     <header id="headerTag">
+        
       <img id="logo" src="assests/images/logo.png" alt="logo" height="150px" width="200px" />
-      <a href="login.html">Login</a>
-      <!-- <br /> -->
-      <!-- <label>Header div</label> -->
+      <a id="login" href="login.html">Login</a>
+        
+
     </header>
+
+    <!-- this is my main body -->
     <div id="content">
-      <!-- <p>Search Bar</p> -->
-      <input id="searchBar" type="text" placeholder="City" />
-    </div >
-    <br />
-    <div class="cityCards">
-    <a href="list.html">
-      <img class="hotelImage"
-        src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" 
-        alt="delhi" 
-        height="300px"
-        width="300px" />
-    </a>
-    <img class="hotelImage" 
-      src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" 
-      alt="goa"
-      height="300px" 
-      width="300px" />
-    <img class="hotelImage" 
-      src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"
-      alt="hyderabad" 
-      height="300px" 
-      width="300px" />
-    <img class="hotelImage" 
-      src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"
-      alt="kolkata" 
-      height="300px" 
-      width="300px" />
-    <br />
+      <div id="image-container">
+        <div id="searchBar-container">
+          <input id="searchBar" type="text" placeholder="City" />
+        </div>
+      </div>
+
+
+      <!-- these are city-cards -->
+      <div id="cityCards">
+        
+        <div>
+          <div class=each-City-Cards>
+          <a href="list.html">
+            <img class="hotelImage" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"
+              alt="delhi" height="300px" width="300px" />
+          </a>
+        </div>
+        </div>
+        <div>
+          <div class=each-City-Cards>
+          <img class="hotelImage" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" alt="goa" />
+        </div>
+        </div>
+        <div>
+          <div class=each-City-Cards>
+          <img class="hotelImage" src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"
+            alt="hyderabad" />
+        </div>
+        </div>
+        <div>
+          <div class=each-City-Cards>
+          <img class="hotelImage" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"
+            alt="kolkata" />
+        </div>
+        </div>
+      
+      </div>
+      <div id="viewMoreContainer"> <a id="viewMore" href="index.html">View More>></a></div>
+
     </div>
-    <a href="index.html">View More>></a>
+
+
+    
   </div>
-  <footer>
-    <a href="contact.html" target="_blank">Contact Us</a>
-    <a class="socialMediaImage" 
-      href="https://www.facebook.com/" 
-      target="_blank">
-      <br />
-      <img class="socialMediaImage" src="assests/images/facebook.png" alt="facebook" height="20px" width="22px" />
-    </a>
-    <a href="https://www.instagram.com/" target="_blank">
-      <img class="socialMediaImage" src="assests/images/instagram.png" alt="instagram" height="20px" width="22px" />
-    </a>
-    <a href="https://twitter.com/" target="_blank">
-      <img class="socialMediaImage" src="assests/images/twitter.png" alt="twitter" height="20px" width="22px" />
-    </a>
-    <br />
-    <p>&copy; 2020 ROOM SEARCH PVT. LTD.</p>
-  </footer>
   </div>
+  <!-- this is my footer  -->
+    <footer id="mainFooter" >
+       
+          <a href="contact.html" target="_blank">Contact Us</a>
+          <p id="copyRight" >&copy; 2020 ROOM SEARCH PVT. LTD.</p>
+          <div class="socialMediaImagesContainer">
+          <a href="https://www.facebook.com/" target="_blank">
+            <img class="SocialMediaImages" src="assests/images/facebook.png" alt="facebook" />
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img class="SocialMediaImages" src="assests/images/instagram.png" alt="instagram" />
+          </a>
+          <a href="https://twitter.com/" target="_blank">
+            <img class="SocialMediaImages" src="assests/images/twitter.png" alt="twitter" />
+          </a>
+        </div>
+
+        </footer>
 </body>
+
 </html>

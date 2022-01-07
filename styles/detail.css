@@ -19,3 +19,10 @@ footer {
 .detail {
   margin: 2% 4% 0 4%;
 }
+.detail {
+  margin-top: 100px;
+  /* margin-bottom: 100px; */
+}
+#mainContainerDetail {
+  padding-bottom: 80px;
+}
