@@ -1,8 +1,9 @@
 body {
   margin: 0;
   background-color: #e0e0e0;
+  font-family: cursive;
 }
-#logo {
+#header_logo {
   height: 60px;
   width: 60px;
 }
@@ -25,4 +26,66 @@ footer {
 }
 #mainContainerDetail {
   padding-bottom: 80px;
+}
+.image_form_container {
+  display: flex;
+}
+#imageRadisson {
+  height: 350px;
+}
+.image_form_container {
+  /* border: 2px solid black; */
+  height: 400px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.image_container {
+  border: 1px solid black;
+  border-right: none;
+  /* justify-content: center; */
+}
+.form_container {
+  border: 1px solid black;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  position: relative;
+}
+.form_element {
+  padding: 20px;
+  height: 90%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form_input_tag {
+  width: 46%;
+}
+.form_element_submit {
+  position: absolute;
+  bottom: 35px;
+  right: 35%;
+  padding-top: 3px;
+}
+.form_element_submit input {
+  height: 35px;
+  width: 100px;
+}
+/* .form__inside_div {
+  display: flex;
+  justify-content: space-between;
+  height: 90%;
+  width: 90%;
+} */
+label {
+  margin-left: 10px;
+  /* display:flex; */
+  /* margin:10px: */
+}
+
+.image_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

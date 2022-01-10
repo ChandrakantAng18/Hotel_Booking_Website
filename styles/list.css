@@ -5,10 +5,10 @@ body {
   height: 100%;
   width: 100%;
 } */
-#logo {
+/* #logo {
   height: 60px;
   width: 60px;
-}
+} */
 .hotelList {
   height: 200px;
   width: 250px;
@@ -19,25 +19,24 @@ body {
   margin: 0;
 }
 #content {
-  margin: 2%;
-  justify-content: space-between;
+  /* margin: 2%; */
+  /* justify-content: space-between; */
+  /* justify-content: center; */
 }
-.detailList {
+/* .detailList {
   background-color: rgb(132, 136, 139);
   width: 40%;
-}
+} */
 .detail_list {
-  background-color: rgb(132, 136, 139);
-  width: 530px;
-  /* display: flex; */
+  /* background-color: rgb(132, 136, 139); */
+  background-color: lightgray;
+  /* width: 530px; */
+  display: flex;
   /* margin-right: 150px; */
   /* padding: 40px; */
   /* justify-content: space-between; */
 }
-.detail_list_test {
-  background-color: rgb(132, 136, 139);
-  width: 40%;
-}
+
 /* #content {
   margin-top: 100px;
 } */
@@ -58,14 +57,16 @@ body {
   justify-content: center;
 } */
 .listContainer {
-  padding-bottom: 100px;
-  margin-left: 50px;
+  /* padding-bottom: 100px; */
+  margin-top: 30px;
   display: grid;
-  grid-template-columns: 500px 500px;
-  grid-row-gap: 40px;
-  grid-column-gap: 190px;
+  grid-template-columns: 40% 40%;
+  grid-row-gap: 60px;
+  grid-column-gap: 150px;
+  justify-content: center;
 }
 #listMapView {
+  margin-top: 50px;
   display: flex;
   justify-content: center;
 }
@@ -90,4 +91,10 @@ ul.no-bullet {
 }
 li {
   padding: 20px;
+}
+#header_logo {
+  margin-left: 1%;
+}
+.hotel_information {
+  margin-left: 4%;
 }

@@ -11,8 +11,8 @@ body {
   width: 60px;
 } */
 #imageHotel1 {
-  height: 500px;
-  width: 500px;
+  height: 270px;
+  width: 300px;
 }
 /* header {
   background-color: rosybrown;
@@ -28,19 +28,22 @@ footer {
   margin: auto;
   margin-top: 2%;
 }
-.detailOfCustomer {
+/* .detailOfCustomer {
   margin-left: 2%;
-}
-.tariffDetail {
+} */
+/* temp commented */
+/* .tariffDetail {
   margin: 2%;
   border: 1px solid;
   padding: 4px;
   border-radius: 1px;
-}
+} */
 
-#contain {
+.Hotel_image_info_holder {
+  display: flex;
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
   margin-top: 65px;
-  display: relative;
 }
 header {
   display: absolute;
@@ -48,4 +51,23 @@ header {
 .main_container {
   margin-top: 90px;
   padding-bottom: 100px;
+}
+.image_hotel1_details h2 {
+  margin: 70px 10px 25px 10px;
+}
+.image_hotel1_details p {
+  margin: 25px 10px 10px 10px;
+}
+.payment_info_div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid black;
+  margin: 2%;
+  background-color: rosybrown;
+  border-radius: 2px;
+}
+
+.Hotel_image_info_holder {
+  margin-top: 140px;
 }

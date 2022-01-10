@@ -1,75 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List</title>
+    <link rel="stylesheet" href="styles/list.css" type="text/css" />
+    <link rel="stylesheet" href="styles/common.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>List</title>
-  <link rel="stylesheet" href="styles/list.css" type="text/css" />
-  <link rel="stylesheet" href="styles/common.css" />
-</head>
+  <body>
+    <div id="mainContainer">
+      <!-- this is my header -->
+      <header id="headerTag">
+        <a id="header_a_logo" href="index.html">
+          <img
+            id="header_logo"
+            src="assests/images/logo.png"
+            alt="logo"
+            height="150px"
+            width="200px"
+          />
+        </a>
+        <a id="login" href="login.html">Login</a>
+      </header>
 
-<body>
-  < id="mainContainer">
-    <!-- this is my header -->
-    <header id="headerTag">
-      <a href="index.html">
-        <img id="logo" src="assests/images/logo.png" alt="logo" height="150px" width="200px" />
-      </a>
-      <a id="login" href="login.html">Login</a>
-    </header>
-
-    <div id="content">
-      <div id="listMapView">
-        <div class= "listMapViewInnerDiv">
-          <ul class="no-bullet">
-           <div>
-              <li>
-              <a href="#takeToInfo"><strong>List View</strong></a>
-            </li>
-           </div>
-           <div>
-              <li>
-              <a href="#takeToMap"><strong>Map View</strong></a>
-            </li>
-           </div>
-          </ul>
+      <div id="content">
+        <div id="listMapView">
+          <div class="listMapViewInnerDiv">
+            <ul class="no-bullet">
+              <div>
+                <li>
+                  <a href="#takeToInfo"><strong>List View</strong></a>
+                </li>
+              </div>
+              <div>
+                <li>
+                  <a href="#takeToMap"><strong>Map View</strong></a>
+                </li>
+              </div>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="listContainer">
-        <div class="detail_list">
+        <div class="listContainer">
           <a href="detail.html">
-            <img id="takeToInfo" class="hotelList"
-              src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
-              alt="Radisson Blu" />
-            <h3>Radisson Blu Hotel</h3>
-            <h4>5 star</h4>
-            <h4>New Delhi</h4>
+            <div class="detail_list">
+              <img
+                id="takeToInfo"
+                class="hotelList"
+                src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+                alt="Radisson Blu"
+              />
+              <div class="hotel_information">
+                <h3>Radisson Blu Hotel</h3>
+                <h4>5 star</h4>
+                <h4>New Delhi</h4>
+              </div>
+            </div>
           </a>
-        </div>
 
-        <div class="detail_list">
-          <img class="hotelList" src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg"
-            alt="Lalit Hotel" />
-          <h3>The Lalit New Delhi</h3>
-          <h4>4.5 star</h4>
-          <h4>New Delhi</h4>
-        </div>
+          <div class="detail_list">
+            <img
+              class="hotelList"
+              src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg"
+              alt="Lalit Hotel"
+            />
+            <div class="hotel_information">
+              <h3>The Lalit New Delhi</h3>
+              <h4>4.5 star</h4>
+              <h4>New Delhi</h4>
+            </div>
+          </div>
 
-        <div class="detail_list">
-          <img class="hotelList" src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg"
-            alt="Taj Palace" />
-          <h3>Taj Palace</h3>
-          <h4>4.0 star</h4>
-          <h4>New Delhi</h4>
+          <div class="detail_list">
+            <img
+              class="hotelList"
+              src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg"
+              alt="Taj Palace"
+            />
+            <div class="hotel_information">
+              <h3>Taj Palace</h3>
+              <h4>4.0 star</h4>
+              <h4>New Delhi</h4>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
 
-
-    <!-- Map is commented here -->
-    <!-- <img
+      <!-- Map is commented here -->
+      <!-- <img
           id="takeToMap"
           src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png"
           alt="Map Image"
@@ -77,23 +96,33 @@
         <p>Map View</p> -->
     </div>
     <!-- </div> -->
-    <!-- this is my footer -->
+    <!-- this is my footer  -->
     <footer id="mainFooter">
-
-      <a href="contact.html" target="_blank">Contact Us</a>
+      <a class="contact_us" href="contact.html" target="_blank">Contact Us</a>
       <p id="copyRight">&copy; 2020 ROOM SEARCH PVT. LTD.</p>
       <div class="socialMediaImagesContainer">
         <a href="https://www.facebook.com/" target="_blank">
-          <img class="SocialMediaImages" src="assests/images/facebook.png" alt="facebook" />
+          <img
+            class="SocialMediaImages"
+            src="assests/images/facebook.png"
+            alt="facebook"
+          />
         </a>
         <a href="https://www.instagram.com/" target="_blank">
-          <img class="SocialMediaImages" src="assests/images/instagram.png" alt="instagram" />
+          <img
+            class="SocialMediaImages"
+            src="assests/images/instagram.png"
+            alt="instagram"
+          />
         </a>
         <a href="https://twitter.com/" target="_blank">
-          <img class="SocialMediaImages" src="assests/images/twitter.png" alt="twitter" />
+          <img
+            class="SocialMediaImages"
+            src="assests/images/twitter.png"
+            alt="twitter"
+          />
         </a>
-        <!-- </div> -->
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
